@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: aqua;
+}
+
+.logo img {
+  width: 7vw;
+}
+
+.sub-con {
+  text-align: center;
+}
+
+.sub-con img {
+  width: 10vw;
+}
+
+.details {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fn {
+  width: 23vw;
+  padding: 1vh;
+  border-radius: 5px;
+  outline: none;
+  font-size: 15px;
+}
+
+.ln {
+  width: 23vw;
+  padding: 1vh;
+  border-radius: 5px;
+  outline: none;
+  font-size: 15px;
+}
+
+.em {
+  width: 23vw;
+  padding: 1vh;
+  border-radius: 5px;
+  outline: none;
+  font-size: 15px;
+}
+
+.pn {
+  width: 23vw;
+  padding: 1vh;
+  border-radius: 5px;
+  outline: none;
+  font-size: 15px;
+}
+
+.btn {
+  width: 23vw;
+  padding: 1vh;
+  border-radius: 5px;
+  outline: none;
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  padding: 5px;
+}
+
+@media screen and (max-width: 425px) {
+  .logo img {
+    width: 70px;
+  }
+
+  .sub-con img {
+    width: 100px;
+  }
+
+  .fn {
+    width: 200px;
+  }
+
+  .ln {
+    width: 200px;
+  }
+
+  .em {
+    width: 200px;
+  }
+
+  .pn {
+    width: 200px;
+  }
+
+  .btn {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 429px) {
+  .logo img {
+    width: 70px;
+  }
+
+  .sub-con img {
+    width: 100px;
+  }
+
+  .fn {
+    width: 200px;
+  }
+
+  .ln {
+    width: 200px;
+  }
+
+  .pn {
+    width: 200px;
+  }
+
+  .em {
+    width: 200px;
+  }
+
+  .btn {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 821px) {
+  .logo img {
+    width: 70px;
+  }
+
+  .sub-con img {
+    width: 100px;
+  }
+
+  .fn {
+    width: 300px;
+  }
+
+  .ln {
+    width: 300px;
+  }
+
+  .em {
+    width: 300px;
+  }
+
+  .pn {
+    width: 300px;
+  }
+
+  .btn {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 835px) {
+  .logo img {
+    width: 70px;
+  }
+
+  .sub-con img {
+    width: 100px;
+  }
+
+  .fn {
+    width: 300px;
+  }
+
+  .ln {
+    width: 300px;
+  }
+
+  .em {
+    width: 300px;
+  }
+
+  .pn {
+    width: 300px;
+  }
+
+  .btn {
+    width: 300px;
+  }
+}
